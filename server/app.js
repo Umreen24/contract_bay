@@ -1,11 +1,23 @@
+//packages
 require('dotenv').config();
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const port = process.env.PORT
 
+//files
+const AppError = require('./utils/AppError');
+const userRouter = require('./routes/userRoute');
+
+//middleware
 app.use(cors());
+app.use(express.json());
 
-app.listen(port, () => {
-    console.log(`Contract Bay server is running on port ${port}!`)
+//routes
+app.use('/users', userRouter);
+
+//catch errors
+app.all('*', (req, res, next) => {
+    next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404))
 });
+
+module.exports = app;

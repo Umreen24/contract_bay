@@ -6,7 +6,7 @@ const validator = require('validator');
 require('dotenv').config()
 
 const userSchema = new mongoose.Schema({
-    employee_number: {
+    employeeNumber: {
         type: Number,
         required: [true, 'Employee must have a ID number!']
     }, 
