@@ -5,7 +5,7 @@ exports.register = async(req, res) => {
         const user = new User(req.body)
         await user.save()
         res.json({user, message: 'Registration successful!'})
-    } catch (error) {
+    } catch(error) {
         res.send(error)
     }
 };
