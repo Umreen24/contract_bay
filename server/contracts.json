@@ -1,0 +1,67 @@
+[
+    {
+        "customerFirstName": "Tim",
+        "customerLastName": "Smith",
+        "esiId": 118249348384,
+        "customerAddress": "2700 Dweller Ln. Fort Worth, TX 76006",
+        "planName": "Signature Fixed Price 3",
+        "planLength": 3,
+        "tdsp": "Oncor",
+        "expirationDate": "11/07/2019"
+    },
+    
+    {
+        "customerFirstName": "Tammy",
+        "customerLastName": "Johnson",
+        "esiId": 118293048384238471,
+        "customerAddress": "3849 Kings Rd. Tomball, TX 77375",
+        "planName": "Signature Fixed Price 12",
+        "planLength": 12,
+        "tdsp": "CenterPoint",
+        "expirationDate": "11/07/2019"
+    },
+
+    {
+        "customerFirstName": "Tiffany",
+        "customerLastName": "Reynolds",
+        "esiId": 117323048384,
+        "customerAddress": "44329 Turtle Way Dr. Tomball, TX 77375",
+        "planName": "Signature Fixed Price 12",
+        "planLength": 12,
+        "tdsp": "CenterPoint",
+        "expirationDate": "11/10/2019"
+    },
+
+    {
+        "customerFirstName": "Jason",
+        "customerLastName": "Hanson",
+        "esiId": 117323048384375938,
+        "customerAddress": "5493 Kings Rd. Dallas, TX 75039",
+        "planName": "Signature Fixed Price 12",
+        "planLength": 12,
+        "tdsp": "Oncor",
+        "expirationDate": "11/09/2019"
+    },
+
+    {
+        "customerFirstName": "Robert",
+        "customerLastName": "Jones",
+        "esiId": 117323048728,
+        "customerAddress": "4850 Doves Ln. Irving, TX 75229",
+        "planName": "Signature Fixed Price 3",
+        "planLength": 3,
+        "tdsp": "Oncor",
+        "expirationDate": "11/08/2019"
+    },
+
+    {
+        "customerFirstName": "Kim",
+        "customerLastName": "Jettson",
+        "esiId": 117323048384840192,
+        "customerAddress": "1329 Sugar Way Dr. Friendswood, TX 77546",
+        "planName": "Signature Fixed Price 12",
+        "planLength": 12,
+        "tdsp": "Texas New Mexico Power",
+        "expirationDate": "11/08/2019"
+    }
+]
