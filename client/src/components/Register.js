@@ -1,0 +1,41 @@
+
+import React, {useState} from 'react';
+import axios from 'axios';
+
+function Register() {
+
+    const [user, setUser] = useState({ employeeNumber: '', firstName: '', lastName: '', email: '', password: ''})
+
+    const handleRegister = () => {
+        axios.post('http://localhost:3001/users/register', {
+            employeeNumber: user.employeeNumber,
+            firstName: user.firstName,
+            lastName: user.lastName,
+            email: user.email,
+            password: user.password
+        }).then(response => {
+            console.log(response.data)
+        })
+    };
+
+    const handleTextChange = (e) => {
+        setUser({
+            ...user,
+            [e.target.name]: e.target.value
+        })
+    };
+
+    return(
+        <div>
+            <h3>New User Registration</h3>
+            <input type='text' name='employeeNumber' placeholder='Enter employee ID' onChange={(e) => handleTextChange(e)}/>
+            <input type='text' name='firstName' placeholder='Enter employee first name' onChange={(e) => handleTextChange(e)}/>
+            <input type='text' name='lastName' placeholder='Enter employee last name' onChange={(e) => handleTextChange(e)}/>
+            <input type='email' name='email' placeholder='Enter employee email' onChange={(e) => handleTextChange(e)}/>
+            <input type='password' name='password' placeholder='Enter a password' onChange={(e) => handleTextChange(e)}/>
+            <button onClick={() => handleRegister()}>Register</button>
+        </div>
+    )
+};
+
+export default Register;

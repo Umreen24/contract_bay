@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to right, #366562, #2f5157, #273347)
+}
+
+.contract-logo{
+    width: 20vw;
+    height: 20vw;
+    margin: 5vw;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-left: -40vw;
+    margin-top: -12vw;
+    height: 10vw;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Vidaloka', serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+ 
