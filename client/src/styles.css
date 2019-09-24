@@ -36,7 +36,7 @@ body{
     display: flex;
     width: 100vw;
     height: 3vw;
-    margin-top: -3vw;
+    margin-top: -4vw;
     background-image: linear-gradient(to right, rgb(215, 212, 212), rgb(203, 200, 200), rgb(206, 206, 206));
     align-items: center;
     justify-items: center;

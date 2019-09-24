@@ -16,6 +16,8 @@ function Login(props) {
             localStorage.setItem('jwt', token)
             setAuthHeader(token)
             props.onAuthenticated(token)
+        }).then(response => {
+            props.history.push('/all-contracts')
         })
     };
 
