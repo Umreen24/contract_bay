@@ -27,11 +27,11 @@ function Login(props) {
     };
 
     return (
-        <div>
-            <h3>User Login</h3>
-            <input type='email' name='email' placeholder='Enter email' onChange={(e) => handleTextChange(e)}/>
-            <input type='password' name='password' placeholder='Enter password' onChange={(e) => handleTextChange(e)}/>
-            <button onClick={() => handleLogin()}>Login</button>
+        <div className='login'>
+            <h3 className='login-sub-title'>User Login</h3>
+            <input type='email' name='email' placeholder='Enter email' className='email-login' onChange={(e) => handleTextChange(e)}/>
+            <input type='password' name='password' placeholder='Enter password' className='password-login' onChange={(e) => handleTextChange(e)}/>
+            <button className='login-btn' onClick={() => handleLogin()}>Login</button>
         </div>
     )
 };
