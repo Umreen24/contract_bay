@@ -15,8 +15,118 @@ body{
     margin-top: -12vw;
     height: 10vw;
     color: white;
-    font-size: xx-large;
+    font-size: 3vw;
     font-family: 'Vidaloka', serif;
     text-shadow: 2px 2px 4px #000000;
 }
- 
+
+.sub-title{
+    display: flex;
+    justify-content: center;
+    margin-left: -25vw;
+    margin-top: -7vw;
+    height: 10vw;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Handlee', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.menu{
+    display: flex;
+    width: 100vw;
+    height: 3vw;
+    margin-top: -4vw;
+    background-image: linear-gradient(to right, rgb(215, 212, 212), rgb(203, 200, 200), rgb(206, 206, 206));
+    align-items: center;
+    justify-items: center;
+}
+
+.menu a{
+    margin: 1vw;
+    text-decoration: none;
+    color: #273347;
+    font-family: 'Vidaloka', serif;
+    font-size: 1.5vw;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-sub-title{
+    font-family: 'Handlee', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.email-login{
+    width: 20vw;
+    height: 1.5vw;
+    margin: 1.5vw;
+}
+
+.password-login{
+    width: 20vw;
+    height: 1.5vw;
+}
+
+.login-btn{
+    margin: 1.5vw;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-sub-title{
+    font-family: 'Handlee', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.id-number{
+    width: 20vw;
+    height: 1.5vw;
+    margin: .5vw;
+}
+
+.firstName{
+    width: 20vw;
+    height: 1.5vw;
+    margin: .5vw;
+}
+
+.lastName{
+    width: 20vw;
+    height: 1.5vw;
+    margin: .5vw;
+}
+
+.register-email{
+    width: 20vw;
+    height: 1.5vw;
+    margin: .5vw;
+}
+
+.register-password{
+    width: 20vw;
+    height: 1.5vw;
+    margin: .5vw;
+}
+
+.register-btn{
+    margin: 1.5vw;
+}
