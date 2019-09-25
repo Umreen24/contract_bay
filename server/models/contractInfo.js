@@ -2,14 +2,9 @@
 const mongoose = require('mongoose');
 
 const contractInfoSchema = new mongoose.Schema({
-    customerFirstName: {
+    customerName: {
         type: String, 
         required: [true, 'Customer must have a first name!']
-    },
-
-    customerLastName: {
-        type: String,
-        required: [true, 'Customer must have a last name!']
     },
 
     esiId: {
