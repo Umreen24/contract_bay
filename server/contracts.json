@@ -1,7 +1,6 @@
 [
     {
-        "customerFirstName": "Tim",
-        "customerLastName": "Smith",
+        "customerName": "Tim Smith",
         "esiId": 118249348384,
         "customerAddress": "2700 Dweller Ln. Fort Worth, TX 76006",
         "planName": "Signature Fixed Price 3",
@@ -11,8 +10,7 @@
     },
     
     {
-        "customerFirstName": "Tammy",
-        "customerLastName": "Johnson",
+        "customerName": "Tammy Johnson",
         "esiId": 118293048384238471,
         "customerAddress": "3849 Kings Rd. Tomball, TX 77375",
         "planName": "Signature Fixed Price 12",
@@ -22,8 +20,7 @@
     },
 
     {
-        "customerFirstName": "Tiffany",
-        "customerLastName": "Reynolds",
+        "customerName": "Tiffany Reynolds",
         "esiId": 117323048384,
         "customerAddress": "44329 Turtle Way Dr. Tomball, TX 77375",
         "planName": "Signature Fixed Price 12",
@@ -33,8 +30,7 @@
     },
 
     {
-        "customerFirstName": "Jason",
-        "customerLastName": "Hanson",
+        "customerName": "Jason Hanson",
         "esiId": 117323048384375938,
         "customerAddress": "5493 Kings Rd. Dallas, TX 75039",
         "planName": "Signature Fixed Price 12",
@@ -44,8 +40,7 @@
     },
 
     {
-        "customerFirstName": "Robert",
-        "customerLastName": "Jones",
+        "customerName": "Robert Jones",
         "esiId": 117323048728,
         "customerAddress": "4850 Doves Ln. Irving, TX 75229",
         "planName": "Signature Fixed Price 3",
@@ -55,8 +50,7 @@
     },
 
     {
-        "customerFirstName": "Kim",
-        "customerLastName": "Jettson",
+        "customerName": "Kim Jettson",
         "esiId": 117323048384840192,
         "customerAddress": "1329 Sugar Way Dr. Friendswood, TX 77546",
         "planName": "Signature Fixed Price 12",
