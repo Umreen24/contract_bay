@@ -148,3 +148,37 @@ body{
 .contract-info li{
     list-style: none;
 }
+
+.filter-title{
+    font-family: 'Vidaloka', serif;
+    color: white;
+    font-size: 2vw;
+    position: relative;
+    left: 2vw;
+}
+
+.filter-btn{
+    position: relative;
+    right: 12vw;
+    top: 2vw;
+    width: 5vw;
+    margin: .5vw;
+    border-radius: 5px;
+}
+
+.filtered-contracts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #cbc8c8;
+    width: 38vw;
+    height: 10vw;
+    margin: 3vw;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.filtered-contracts li{
+    list-style: none;
+}

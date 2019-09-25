@@ -16,11 +16,12 @@ function FilterContracts() {
     }
 
     return(
-        <div>
-            <button onClick={() => handleFilteredContracts(12)}>12 Month Plans</button>
-            <button onClick={() => handleFilteredContracts(3)}>3 Month Plans</button>
+        <div className='filter-list'>
+            <span className='filter-title'>Select Plan Term</span>
+            <button className='filter-btn' onClick={() => handleFilteredContracts(12)}>12 Month Plans</button>
+            <button className='filter-btn' onClick={() => handleFilteredContracts(3)}>3 Month Plans</button>
             {contracts.map(contract => {
-                return <ul>
+                return <ul className='filtered-contracts'>
                         <li>Customer Name: {contract.customerName}</li>
                         <li>ESI ID: {contract.esiId}</li>
                         <li>Customer Address: {contract.customerAddress}</li>
