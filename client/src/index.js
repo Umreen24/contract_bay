@@ -27,7 +27,7 @@ ReactDOM.render(
                 <Route path='/register' component={Register}/>
                 <Route path='/login' component={Login}/>
                 <Route path='/all-contracts' component={ViewContracts}/>
-                <Route path='/filter-contracts' component={FilterContracts}/>
+                <Route path='/filter-contracts/' component={FilterContracts}/>
             </Switch>
         </BaseLayout>
     </Provider>
