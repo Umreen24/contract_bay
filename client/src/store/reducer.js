@@ -17,7 +17,7 @@ const reducer = (state = initialState, action) => {
                 isAuthenticated: false
             }
             default:
-                return state
+                return state  
     }
 
 };
