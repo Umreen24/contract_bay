@@ -3,6 +3,7 @@ import './App.css';
 import Register from './components/Register';
 import Login from './components/Login';
 import ViewContracts from './components/ViewContracts';
+import FilterContracts from './components/FilterContracts';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Register/>
       <Login/>
       <ViewContracts/>
+      <FilterContracts/>
     </div>
   )
 };
