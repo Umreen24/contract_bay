@@ -11,12 +11,12 @@ function Menu(props) {
 
     return(
         <ul className='menu'>
-            <li><NavLink to="/">Home</NavLink></li>
+            {/* <li><NavLink to="/">Home</NavLink></li> */}
             <li><NavLink to="/login">Login</NavLink></li>
             <li><NavLink to="/register">Register</NavLink></li>
             {props.authenticated ? <li><NavLink to="/all-contracts">View All Contracts</NavLink></li>: null}
-            {props.authenticated ? <li><NavLink to="/add-contract">Add New Contract</NavLink></li>: null}
             {props.authenticated ? <li><NavLink to="/filter-contracts">Filter Contracts</NavLink></li>: null}
+            {props.authenticated ? <li><NavLink to="/add-contract">Add New Contract</NavLink></li>: null}
             {props.authenticated ? <li><a onClick={() => handleSignOut()} href="/">Sign Out</a></li>: null}
 
         </ul>

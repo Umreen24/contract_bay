@@ -7,6 +7,13 @@ const contractInfoSchema = new mongoose.Schema({
         required: [true, 'Customer must have a first name!']
     },
 
+    customerAccountNumber: {
+        type: Number,
+        minlength: 6,
+        maxlength: 6,
+        required: [true, 'Customer must have an account number!']
+    },
+
     esiId: {
         type: Number,
         minlength: 12,
