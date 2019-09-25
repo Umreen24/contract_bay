@@ -11,6 +11,7 @@ import Register from './components/Register';
 import Login from './components/Login';
 import {setAuthHeader} from './utils/setAuthHeader';
 import ViewContracts from './components/ViewContracts';
+import FilterContracts from './components/FilterContracts';
 
 const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
@@ -26,6 +27,7 @@ ReactDOM.render(
                 <Route path='/register' component={Register}/>
                 <Route path='/login' component={Login}/>
                 <Route path='/all-contracts' component={ViewContracts}/>
+                <Route path='/filter-contracts' component={FilterContracts}/>
             </Switch>
         </BaseLayout>
     </Provider>

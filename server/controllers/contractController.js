@@ -18,3 +18,14 @@ exports.getContracts = async(req, res) => {
         res.json({error: 'Unable to get contracts!'})
     }
 };
+
+exports.filterContracts = async(req,res) => {
+
+    const planLength = req.params.planLength
+    const contract = await ContractInfo.find({planLength: {
+        '$eq': planLength,
+    }})
+
+    res.json({contract: contract})
+
+};
