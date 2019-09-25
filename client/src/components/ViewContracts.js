@@ -19,7 +19,7 @@ function ViewContracts() {
     }, [])
 
     return(
-            <div>
+            <div className="mdc-data-table">
                 {contracts.map(contract => {
                     return <ul className='contract-info' key={contract._id}>
                                     <li>Customer Name: {contract.customerName}</li>

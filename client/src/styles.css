@@ -135,7 +135,7 @@ body{
 .contract-info{
     display: flex;
     flex-direction: column;
-    color: #183445;
+    color: #black;
     background-color: #cbc8c8;
     width: 38vw;
     height: 10vw;
