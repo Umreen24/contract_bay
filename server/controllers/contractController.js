@@ -1,4 +1,5 @@
 const ContractInfo = require('../models/contractInfo');
+const moment = require('moment');
 
 exports.addContractInfo = async(req, res) => {
     try{
@@ -29,3 +30,11 @@ exports.filterContracts = async(req,res) => {
     res.json({contract: contract})
 
 };
+
+exports.sendEmailDate = async(req, res) => {
+
+    const sendEmailDate = await ContractInfo.find({sendEmailDate: {
+        '$gte': new Date('2019-11-09T00:00:00.000Z')
+    }})
+    res.json({sendEmailDate: sendEmailDate})
+}

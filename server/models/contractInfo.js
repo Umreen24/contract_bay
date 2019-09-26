@@ -41,10 +41,10 @@ const contractInfoSchema = new mongoose.Schema({
         required: [true, 'Customer must have a TDSP!']
     },
 
-    expirationDate: {
+    sendEmailDate: {
         type: Date,
-        required: [true, 'Customer plan must have an expiration date!']
-    },
+        default: new Date(+new Date() + 45*24*60*60*1000)
+    }
 });
 
 const ContractInfo = mongoose.model('ContractInfo', contractInfoSchema);

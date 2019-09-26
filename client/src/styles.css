@@ -135,10 +135,10 @@ body{
 .contract-info{
     display: flex;
     flex-direction: column;
-    color: #black;
+    color: black;
     background-color: #cbc8c8;
-    width: 38vw;
-    height: 10vw;
+    width: 39vw;
+    height: 12vw;
     justify-content: center;
     margin: 2vw;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -159,9 +159,10 @@ body{
 
 .filter-btn{
     position: relative;
-    right: 12vw;
+    right: 11vw;
     top: 2vw;
     width: 5vw;
+    height: 2vw;
     margin: .5vw;
     border-radius: 5px;
 }
@@ -172,7 +173,7 @@ body{
     flex-wrap: wrap;
     background-color: #cbc8c8;
     width: 38vw;
-    height: 10vw;
+    height: 12vw;
     margin: 3vw;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
