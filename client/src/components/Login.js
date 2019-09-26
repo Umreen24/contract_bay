@@ -17,7 +17,7 @@ function Login(props) {
             setAuthHeader(token)
             props.onAuthenticated(token)
         }).then(response => {
-            props.history.push('/all-contracts')
+            console.log(response)
         })
     };
 

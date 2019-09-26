@@ -23,6 +23,7 @@ function FilterContracts() {
             {contracts.map(contract => {
                 return <ul className='filtered-contracts'>
                         <li>Customer Name: {contract.customerName}</li>
+                        <li>Account Number: {contract.customerAccountNumber}</li>
                         <li>ESI ID: {contract.esiId}</li>
                         <li>Customer Address: {contract.customerAddress}</li>
                         <li>Plan Name: {contract.planName}</li>

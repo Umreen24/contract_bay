@@ -6,8 +6,7 @@
         "customerAddress": "2700 Dweller Ln. Fort Worth, TX 76006",
         "planName": "Signature Fixed Price 3",
         "planLength": 3,
-        "tdsp": "Oncor",
-        "expirationDate": "11/07/2019"
+        "tdsp": "Oncor"
     },
     
     {
@@ -17,8 +16,7 @@
         "customerAddress": "3849 Kings Rd. Tomball, TX 77375",
         "planName": "Signature Fixed Price 12",
         "planLength": 12,
-        "tdsp": "CenterPoint",
-        "expirationDate": "11/07/2019"
+        "tdsp": "CenterPoint"
     },
 
     {
@@ -28,8 +26,7 @@
         "customerAddress": "44329 Turtle Way Dr. Tomball, TX 77375",
         "planName": "Signature Fixed Price 12",
         "planLength": 12,
-        "tdsp": "CenterPoint",
-        "expirationDate": "11/10/2019"
+        "tdsp": "CenterPoint"
     },
 
     {
@@ -39,8 +36,7 @@
         "customerAddress": "5493 Kings Rd. Dallas, TX 75039",
         "planName": "Signature Fixed Price 12",
         "planLength": 12,
-        "tdsp": "Oncor",
-        "expirationDate": "11/09/2019"
+        "tdsp": "Oncor"
     },
 
     {
@@ -50,8 +46,7 @@
         "customerAddress": "4850 Doves Ln. Irving, TX 75229",
         "planName": "Signature Fixed Price 3",
         "planLength": 3,
-        "tdsp": "Oncor",
-        "expirationDate": "11/08/2019"
+        "tdsp": "Oncor"
     },
 
     {
@@ -61,8 +56,7 @@
         "customerAddress": "1329 Sugar Way Dr. Friendswood, TX 77546",
         "planName": "Signature Fixed Price 12",
         "planLength": 12,
-        "tdsp": "Texas New Mexico Power",
-        "expirationDate": "11/08/2019"
+        "tdsp": "Texas New Mexico Power"
     },
 
     {
@@ -72,8 +66,7 @@
         "customerAddress": "3748 Westlake Dr. Porter, TX 77365",
         "planName": "Signature Fixed Price 3",
         "planLength": 3,
-        "tdsp": "CenterPoint",
-        "expirationDate": "11/11/2019"
+        "tdsp": "CenterPoint"
     },
 
     {
@@ -83,8 +76,7 @@
         "customerAddress": "33484 Lazy River Ln. Friendswood, TX 77546",
         "planName": "Signature Fixed Price 3",
         "planLength": 3,
-        "tdsp": "Texas New Mexico Power",
-        "expirationDate": "11/08/2019"
+        "tdsp": "Texas New Mexico Power"
     },
 
     {
@@ -94,8 +86,7 @@
         "customerAddress": "9845 Next Rd. Spring, TX 77379",
         "planName": "Signature Fixed Price 12",
         "planLength": 12,
-        "tdsp": "CenterPoint",
-        "expirationDate": "11/06/2019"
+        "tdsp": "CenterPoint"
     },
 
     {
@@ -105,7 +96,16 @@
         "customerAddress": "3682 Elm St. White Settlement, TX 76108",
         "planName": "Signature Fixed Price 3",
         "planLength": 3,
-        "tdsp": "Oncor",
-        "expirationDate": "11/15/2019"
+        "tdsp": "Oncor"
+    },
+
+    {
+        "customerName": "Phillip Jameson",
+        "customerAccountNumber": 432790,
+        "esiId": 117323046854382194,
+        "customerAddress": "3736 Townsend Lake Rd. Sugarland, TX 77478",
+        "planName": "Signature Fixed Price 12",
+        "planLength": 12,
+        "tdsp": "CenterPoint"
     }
 ]
