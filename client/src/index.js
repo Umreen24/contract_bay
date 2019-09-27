@@ -14,6 +14,7 @@ import ViewContracts from './components/ViewContracts';
 import FilterContracts from './components/FilterContracts';
 import AddNewContract from './components/AddNewContract';
 import requireAuth from './components/requireAuth';
+import ExpiringContracts from './components/ExpiringContract';
 
 const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
@@ -30,6 +31,7 @@ ReactDOM.render(
                 <Route path='/login' component={Login}/>
                 <Route path='/all-contracts' component={requireAuth(ViewContracts)}/>
                 <Route path='/filter-contracts/' component={requireAuth(FilterContracts)}/>
+                <Route path='/expiring-contracts' component={requireAuth(ExpiringContracts)}/>
                 <Route path='/add-contract' component={requireAuth(AddNewContract)}/>
             </Switch>
         </BaseLayout>

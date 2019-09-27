@@ -29,7 +29,7 @@ function ViewContracts() {
                                     <li>Plan Name: {contract.planName}</li>
                                     <li>Plan Length: {contract.planLength} months</li>
                                     <li>TDSP: {contract.tdsp}</li>
-                                    <li>Expiration Date: {moment(contract.expirationDate).format('MM/DD/YYYY')}</li>
+                                    <li>Expiration Date: {moment(contract.sendEmailDate).format('MM/DD/YYYY')}</li>
                             </ul>
                 })}
             </div>

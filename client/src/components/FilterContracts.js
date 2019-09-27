@@ -20,6 +20,7 @@ function FilterContracts() {
             <span className='filter-title'>Select Plan Term</span>
             <button className='filter-btn' onClick={() => handleFilteredContracts(12)}>12 Month Plans</button>
             <button className='filter-btn' onClick={() => handleFilteredContracts(3)}>3 Month Plans</button>
+            <button className='filter-btn' onClick={() => handleFilteredContracts(6)}>6 Month Plans</button>
             {contracts.map(contract => {
                 return <ul className='filtered-contracts'>
                         <li>Customer Name: {contract.customerName}</li>
@@ -29,7 +30,7 @@ function FilterContracts() {
                         <li>Plan Name: {contract.planName}</li>
                         <li>Plan Length: {contract.planLength}</li>
                         <li>TDSP: {contract.tdsp}</li>
-                        <li>Expiration Date: {moment(contract.expirationDate).format('MM/DD/YYYY')}</li>
+                        <li>Expiration Date: {moment(contract.sendEmailDate).format('MM/DD/YYYY')}</li>
                         </ul>
             })}
         </div>
