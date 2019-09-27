@@ -107,5 +107,95 @@
         "planName": "Signature Fixed Price 12",
         "planLength": 12,
         "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Kevin Smith",
+        "customerAccountNumber": 437283,
+        "esiId": 117323046854,
+        "customerAddress": "4853 Hammons Way Park Dallas, TX 77098",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "Oncor"
+    },
+
+    {
+        "customerName": "Steven Johnson",
+        "customerAccountNumber": 432776,
+        "esiId": 117323046854382194,
+        "customerAddress": "3736 Water Mills Rd. Corpus Christi, TX 77543",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "AEP"
+    },
+
+    {
+        "customerName": "Veronica Stuard",
+        "customerAccountNumber": 431223,
+        "esiId": 117323046854382194,
+        "customerAddress": "3736 Sugar Mill Rd. Sugarland, TX 77478",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "James Johnson",
+        "customerAccountNumber": 411333,
+        "esiId": 117323046854,
+        "customerAddress": "4738 Tents Rd. Fort Worth, TX 77478",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "Oncor"
+    },
+
+    {
+        "customerName": "Chris Hamilton",
+        "customerAccountNumber": 435999,
+        "esiId": 117323046854382194,
+        "customerAddress": "5993 Yellow Ln. Corpus Christi, TX 77364",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "AEP"
+    },
+
+    {
+        "customerName": "Phoebe Buffay",
+        "customerAccountNumber": 433222,
+        "esiId": 117323046854,
+        "customerAddress": "48338 Himalaya Ave. Fort Worth, TX 77394",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "Oncor"
+    },
+
+    {
+        "customerName": "Ross Stevens",
+        "customerAccountNumber": 433112,
+        "esiId": 117323046854493049,
+        "customerAddress": "3943 Park Ave. Houston, TX 77098",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Macy Johnson",
+        "customerAccountNumber": 433294,
+        "esiId": 117323046854493049,
+        "customerAddress": "7783 Ace Ave. Houston, TX 77098",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Shawna Stevenson",
+        "customerAccountNumber": 411224,
+        "esiId": 117323046854,
+        "customerAddress": "83932 Yanter Grove Irving, TX 77654",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "Oncor"
     }
 ]
