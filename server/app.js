@@ -8,14 +8,18 @@ const cors = require('cors');
 const AppError = require('./utils/AppError');
 const userRouter = require('./routes/userRoute');
 const contractRouter = require('./routes/contractRoute');
+const expirationDateRouter = require('./routes/contractExpDateRoute');
 
 //middleware
 app.use(cors());
+app.use(express.urlencoded({extended: true}))
 app.use(express.json());
+
 
 //routes
 app.use('/users', userRouter);
 app.use('/contracts', contractRouter);
+app.use('/exp-date', expirationDateRouter);
 
 //catch errors
 app.all('*', (req, res, next) => {

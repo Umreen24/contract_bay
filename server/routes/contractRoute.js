@@ -4,7 +4,6 @@ const contractRouter = express.Router();
 
 contractRouter.post('/add-contract', contractController.addContractInfo);
 contractRouter.get('/all-contracts', contractController.getContracts);
-contractRouter.get('/sendEmailDate', contractController.sendEmailDate);
 contractRouter.get('/:planLength', contractController.filterContracts);
 
 
