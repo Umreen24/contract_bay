@@ -4,6 +4,7 @@ import Register from './components/Register';
 import Login from './components/Login';
 import ViewContracts from './components/ViewContracts';
 import FilterContracts from './components/FilterContracts';
+import AddNewContract from './components/AddNewContract';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Login/>
       <ViewContracts/>
       <FilterContracts/>
+      <AddNewContract/>
     </div>
   )
 };

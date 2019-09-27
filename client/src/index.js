@@ -12,6 +12,8 @@ import Login from './components/Login';
 import {setAuthHeader} from './utils/setAuthHeader';
 import ViewContracts from './components/ViewContracts';
 import FilterContracts from './components/FilterContracts';
+import AddNewContract from './components/AddNewContract';
+import requireAuth from './components/requireAuth';
 
 const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
@@ -26,8 +28,9 @@ ReactDOM.render(
             <Switch>
                 <Route path='/register' component={Register}/>
                 <Route path='/login' component={Login}/>
-                <Route path='/all-contracts' component={ViewContracts}/>
-                <Route path='/filter-contracts/' component={FilterContracts}/>
+                <Route path='/all-contracts' component={requireAuth(ViewContracts)}/>
+                <Route path='/filter-contracts/' component={requireAuth(FilterContracts)}/>
+                <Route path='/add-contract' component={requireAuth(AddNewContract)}/>
             </Switch>
         </BaseLayout>
     </Provider>

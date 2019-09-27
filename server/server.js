@@ -8,8 +8,8 @@ const DB = process.env.DATABASE.replace('<PASSWORD>', process.env.DATABASE_PASSW
 
 mongoose.connect(DB, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
     useCreateIndex: true,
+    useUnifiedTopology: true,
     useFindAndModify: true
 }, (error) => {
     if(!error) {

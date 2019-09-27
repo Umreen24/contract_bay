@@ -18,6 +18,7 @@ function Login(props) {
             props.onAuthenticated(token)
         }).then(response => {
             console.log(response)
+            props.history.push('/all-contracts')
         })
     };
 
@@ -27,7 +28,7 @@ function Login(props) {
             [e.target.name]: e.target.value 
         })
     };
-
+    
     return (
         <div className='login'>
             <h3 className='login-sub-title'>User Login</h3>
