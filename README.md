@@ -21,12 +21,9 @@ MongoDB, Node.js, Express, React, Redux, JWT, CSS
 
 <img src='readme/view-all.png' width=600px height=400px/>
 
-<h2>Filter Contracts by Contract Length</h2>
+<h2>Filter Contracts by Contract Length and Expiring Date</h2>
 
 <img src='readme/filter-contracts.gif' width=600px height=400px/>
-
-<h2>Expiring Contracts</h2>
-<img src='readme/exp-contract.png' width=600px height=400px/>
 
 <h2>Add Contract</h2>
 <img src='readme/add-contract.png' width=600px height=400px/>
