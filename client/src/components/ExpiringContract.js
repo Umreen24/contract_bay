@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import axios from 'axios';
 import * as moment from 'moment';
 
@@ -6,20 +6,19 @@ function ExpiringContracts() {
 
     const [expiringContract, setExpContracts] = useState([])
 
-    const fetchExpContracts = () => {
-        axios.get('http://localhost:3001/exp-date/getTodayExpDate')
+    const handleFilteredContracts = (getTermExpDate) => {
+        axios.get(`http://localhost:3001/exp-date/${getTermExpDate}`)
         .then(response => {
             setExpContracts(response.data.expiringContract)
             console.log(response.data)
         })
     }
 
-    useEffect(() => {
-        fetchExpContracts()
-    }, [])
-
     return(
         <div>
+            <button className='filter-btn' onClick={() => handleFilteredContracts(12)}>12 Month Plans</button>
+            <button className='filter-btn' onClick={() => handleFilteredContracts(3)}>3 Month Plans</button>
+            <button className='filter-btn' onClick={() => handleFilteredContracts(6)}>6 Month Plans</button>
             <span className='filter-title'>Expiring Contracts</span>
             {expiringContract.map(expContract => {
                 return  <ul className='filtered-contracts'>

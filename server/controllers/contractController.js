@@ -29,3 +29,17 @@ exports.filterContracts = async(req,res) => {
     res.json({contract: contract})
 
 };
+
+exports.deleteContract = (req, res) => {
+
+    const id = req.params.id
+
+    ContractInfo.remove({_id: id}, (error, result) => {
+        if(error) {
+            res.json({error: 'Unable to delete contract!'})
+        } else {
+            res.json(result)
+        }
+    })
+
+};

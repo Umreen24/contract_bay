@@ -197,5 +197,146 @@
         "planName": "Signature Fixed Price 6",
         "planLength": 6,
         "tdsp": "Oncor"
+    },
+
+    {
+        "customerName": "Stevie Stevenson",
+        "customerAccountNumber": 422667,
+        "esiId": 117323046854738557,
+        "customerAddress": "57483 Shallow Ln. Houston, TX 77654",
+        "planName": "Signature Fixed Price 12",
+        "planLength": 12,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Sam Smith",
+        "customerAccountNumber": 433555,
+        "esiId": 117323046854437894,
+        "customerAddress": "48393 High Dr. Houston, TX 77654",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Justine Hems",
+        "customerAccountNumber": 422554,
+        "esiId": 117323046854,
+        "customerAddress": "83932 Groovy Rd. Irving, TX 77654",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "Oncor"
+    },
+
+    {
+        "customerName": "Riya Singh",
+        "customerAccountNumber": 422448,
+        "esiId": 117323046854,
+        "customerAddress": "83932 Easter Way Dallas, TX 77654",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "Oncor"
+    },
+
+    {
+        "customerName": "Sushant Rajput",
+        "customerAccountNumber": 422777,
+        "esiId": 117323046854384591,
+        "customerAddress": "Kings Way Ln. Porter, TX 77365",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Shawn Stevenson",
+        "customerAccountNumber": 433666,
+        "esiId": 117323046854473849,
+        "customerAddress": "57382 Yannis Tomball, TX 77654",
+        "planName": "Signature Fixed Price 3",
+        "planLength": 3,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Tyler Stevenson",
+        "customerAccountNumber": 455777,
+        "esiId": 1173230468544738594,
+        "customerAddress": "85849 Seals Rd. Sealy, TX 77654",
+        "planName": "Signature Fixed Price 3",
+        "planLength": 3,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Jonathan Stewart",
+        "customerAccountNumber": 477333,
+        "esiId": 117323046854,
+        "customerAddress": "83932 Lanely Rd. Fort Worth, TX 77654",
+        "planName": "Signature Fixed Price 12",
+        "planLength": 12,
+        "tdsp": "Oncor"
+    },
+
+    {
+        "customerName": "Hank Pimm",
+        "customerAccountNumber": 433662,
+        "esiId": 1173230468547548393,
+        "customerAddress": "5743 Wind Park Ln. Katy, TX 77654",
+        "planName": "Signature Fixed Price 6",
+        "planLength": 6,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Tom Pimm",
+        "customerAccountNumber": 433666,
+        "esiId": 1173230468547548393,
+        "customerAddress": "4738 Tom Ave. Katy, TX 77654",
+        "planName": "Signature Fixed Price 12",
+        "planLength": 12,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Hank Jones",
+        "customerAccountNumber": 443777,
+        "esiId": 1173230468547548393,
+        "customerAddress": "49383 James Bay Katy, TX 77654",
+        "planName": "Signature Fixed Price 12",
+        "planLength": 12,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "John Doe",
+        "customerAccountNumber": 466333,
+        "esiId": 1173230468547548393,
+        "customerAddress": "4838 Houston Dr. Houston, TX 77357",
+        "planName": "Signature Fixed Price 3",
+        "planLength": 3,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Jim Pimm",
+        "customerAccountNumber": 443777,
+        "esiId": 1173230468547548393,
+        "customerAddress": "4939 Wind Park Ln. Katy, TX 77654",
+        "planName": "Signature Fixed Price 3",
+        "planLength": 3,
+        "tdsp": "CenterPoint"
+    },
+
+    {
+        "customerName": "Jen Tams",
+        "customerAccountNumber": 454888,
+        "esiId": 1173230468547548393,
+        "customerAddress": "4839 Flemming Ln. Houston, TX 77654",
+        "planName": "Signature Fixed Price 3",
+        "planLength": 3,
+        "tdsp": "CenterPoint"
     }
+
 ]
