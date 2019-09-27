@@ -8,7 +8,7 @@ const cors = require('cors');
 const AppError = require('./utils/AppError');
 const userRouter = require('./routes/userRoute');
 const contractRouter = require('./routes/contractRoute');
-const expirationDateRouter = require('./routes/contractExpDateRoute');
+const expirationDateRouter = require('./routes/contractExpirationRoute');
 
 //middleware
 app.use(cors());
