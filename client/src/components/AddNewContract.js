@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 
-function AddNewContract() {
+function AddNewContract(props) {
 
     const [contract, setContract] = useState({
         customerName: '',
@@ -25,6 +25,7 @@ function AddNewContract() {
             tdsp: contract.tdsp
         }).then(response => {
             console.log(response.data)
+            props.history.push('/all-contracts')
         })
     }
 
@@ -38,13 +39,13 @@ function AddNewContract() {
     return(
         <div className='add-contract'>
             <span className='add-contract-sub-title'>Add New Contract</span>
-            <input type='text' name='customerName' placeholder='Enter customer name' className='id-number' onChange={(e) => handleTextChange(e)}/>
-            <input type='text' name='customerAccountNumber' placeholder='Enter customer account number' className='id-number' onChange={(e) => handleTextChange(e)}/>
-            <input type='text' name='esiId' placeholder='Enter customer ESI ID' className='id-number' onChange={(e) => handleTextChange(e)}/>
-            <input type='text' name='customerAddress' placeholder='Enter customer address' className='id-number' onChange={(e) => handleTextChange(e)}/>
-            <input type='text' name='planName' placeholder='Enter customer plan name' className='id-number' onChange={(e) => handleTextChange(e)}/>
-            <input type='text' name='planLength' placeholder='Enter plan length' className='id-number' onChange={(e) => handleTextChange(e)}/>
-            <input type='text' name='tdsp' placeholder='Enter customer TDSP' className='id-number' onChange={(e) => handleTextChange(e)}/>
+            <label className='add-contract-input'>Customer Name: <input type='text' name='customerName' placeholder='Enter customer name' className='id-number' onChange={(e) => handleTextChange(e)}/></label>
+            <label className='add-contract-input'>Customer Account Number: <input type='text' name='customerAccountNumber' placeholder='Enter customer account number' className='id-number' onChange={(e) => handleTextChange(e)}/></label>
+            <label className='add-contract-input'>ESI ID: <input type='text' name='esiId' placeholder='Enter customer ESI ID' className='id-number' onChange={(e) => handleTextChange(e)}/></label>
+            <label className='add-contract-input'>Customer Address: <input type='text' name='customerAddress' placeholder='Enter customer address' className='id-number' onChange={(e) => handleTextChange(e)}/></label>
+            <label className='add-contract-input'>Plan Name: <input type='text' name='planName' placeholder='Enter customer plan name' className='id-number' onChange={(e) => handleTextChange(e)}/></label>
+            <label className='add-contract-input'>Plan Length: <input type='text' name='planLength' placeholder='Enter plan length' className='id-number' onChange={(e) => handleTextChange(e)}/></label>
+            <label className='add-contract-input'>TDSP: <input type='text' name='tdsp' placeholder='Enter customer TDSP' className='id-number' onChange={(e) => handleTextChange(e)}/></label>
             <button className='register-btn' onClick={() => handleAddContract()}>Add Contract</button>
         </div>
     )

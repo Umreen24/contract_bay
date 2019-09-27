@@ -4,6 +4,6 @@ const contractRouter = express.Router();
 
 contractRouter.post('/add-contract', contractController.addContractInfo);
 contractRouter.get('/all-contracts', contractController.getContracts);
-contractRouter.get('/:planLength', contractController.filterContracts);
+contractRouter.delete('/:id', contractController.deleteContract);
 
 module.exports = contractRouter;

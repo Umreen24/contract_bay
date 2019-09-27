@@ -9,6 +9,7 @@ const AppError = require('./utils/AppError');
 const userRouter = require('./routes/userRoute');
 const contractRouter = require('./routes/contractRoute');
 const expirationDateRouter = require('./routes/contractExpirationRoute');
+const tdspRouter = require('./routes/tdspRoute');
 
 //middleware
 app.use(cors());
@@ -20,6 +21,7 @@ app.use(express.json());
 app.use('/users', userRouter);
 app.use('/contracts', contractRouter);
 app.use('/exp-date', expirationDateRouter);
+app.use('/tdsp', tdspRouter);
 
 //catch errors
 app.all('*', (req, res, next) => {

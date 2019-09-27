@@ -72,12 +72,13 @@ body{
 .email-login{
     width: 20vw;
     height: 1.5vw;
-    margin: 1.5vw;
+    margin: .5vw;
 }
 
 .password-login{
     width: 20vw;
     height: 1.5vw;
+    margin: .5vw;
 }
 
 .login-btn{
@@ -138,7 +139,7 @@ body{
     color: black;
     background-color: #cbc8c8;
     width: 39vw;
-    height: 12vw;
+    height: 14vw;
     justify-content: center;
     margin: 2vw;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -149,17 +150,32 @@ body{
     list-style: none;
 }
 
+.delete-btn{
+    width: 5vw;
+    position: relative;
+    left: 32vw;
+    bottom: 1vw;
+}
+
+.add-contract-input{
+    color: white;
+    font-family: 'Vidaloka', serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .filter-title{
     font-family: 'Vidaloka', serif;
     color: white;
     font-size: 2vw;
     position: relative;
-    left: 2vw;
+    left: -15vw;
 }
 
 .filter-btn{
     position: relative;
-    right: 11vw;
+    right: -2vw;
     top: 2vw;
     width: 5vw;
     height: 2vw;

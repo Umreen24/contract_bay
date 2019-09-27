@@ -2,7 +2,7 @@
 import React, {useState, useEffect} from 'react';
 import * as moment from 'moment';
 
-function ViewContracts() {
+function ViewContracts(props) {
 
     const [contracts, setContract] = useState([])
 
@@ -18,6 +18,21 @@ function ViewContracts() {
         fetchContracts()
     }, [])
 
+    const deleteContract = (id) => {
+        fetch(`http://localhost:3001/contracts/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                _id: id
+            })
+        })
+        .then(response => {
+            props.history.push('/all-contracts')
+        })
+    }
+
     return(
             <div>
                 {contracts.map(contract => {
@@ -30,6 +45,7 @@ function ViewContracts() {
                                     <li>Plan Length: {contract.planLength} months</li>
                                     <li>TDSP: {contract.tdsp}</li>
                                     <li>Expiration Date: {moment(contract.sendEmailDate).format('MM/DD/YYYY')}</li>
+                                    <button className='delete-btn' onClick={() => deleteContract(contract._id)}>Delete Contract</button>
                             </ul>
                 })}
             </div>
